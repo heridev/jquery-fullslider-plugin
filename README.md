@@ -1,5 +1,15 @@
-Created by Codrops
+#####Based on:
+```
+http://tympanus.net/Blueprints/FullWidthImageSlider/
+```
 
-Please read the about our license: http://tympanus.net/codrops/licensing/
+##### Added goTo method
+###### If you want to go to a specifi slide do this:
+```
+$( '#cbp-fwslider' ).cbpFWSlider('goTo', InValue);
+Eg:
+$( '#cbp-fwslider' ).cbpFWSlider('goTo', 3);
+```
+
 
 
